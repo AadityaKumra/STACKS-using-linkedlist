@@ -16,6 +16,16 @@ public class LinkedList{
     }
   }
 
+  public void push(int value){
+    Node tempNode=new Node();
+    tempNode.value=value;
+    tempNode.next=head;
+    head=tempNode;
+    System.out.println("Value pushed successfully.");
+  }
+
+  
+
 
   
 }

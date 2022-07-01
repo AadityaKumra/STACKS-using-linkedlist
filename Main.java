@@ -4,5 +4,9 @@ class Main {
     System.out.println(stack.isEmpty());
     stack.createStack(1);
     System.out.println(stack.isEmpty());
+
+    stack.push(2);
+
+    // System.out.println(stack.head.value);
   }
 }

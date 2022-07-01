@@ -24,6 +24,21 @@ public class LinkedList{
     System.out.println("Value pushed successfully.");
   }
 
+  public void pop(){
+    if(isEmpty()){
+      System.out.println("Stack is already Empty!");
+    }
+    else if(head.next==null){
+      int a=head.value;
+      head=null;
+      System.out.println(a+" popped. Stack Empty. :(");
+    }
+    else{
+      int a=head.value;
+      head=head.next;
+      System.out.println(a+ " popped. Puff!");
+    }
+  }
   
 
 

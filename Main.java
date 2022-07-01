@@ -6,7 +6,9 @@ class Main {
     System.out.println(stack.isEmpty());
 
     stack.push(2);
-
+    stack.pop();
+    stack.pop();
+    stack.pop();
     // System.out.println(stack.head.value);
   }
 }

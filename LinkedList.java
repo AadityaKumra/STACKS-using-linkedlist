@@ -39,6 +39,15 @@ public class LinkedList{
       System.out.println(a+ " popped. Puff!");
     }
   }
+
+  public void peek(){
+    if(isEmpty()){
+      System.out.println("Stack is empty!");
+    }
+    else{
+      System.out.println(head.value);
+    }
+  }
   
 
 

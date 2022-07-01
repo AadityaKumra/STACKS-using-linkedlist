@@ -14,5 +14,7 @@ class Main {
     stack.push(2);
     stack.push(1);
     stack.peek();
+    stack.deleteStack();
+    stack.peek();
   }
 }

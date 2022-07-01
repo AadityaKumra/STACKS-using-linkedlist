@@ -48,8 +48,10 @@ public class LinkedList{
       System.out.println(head.value);
     }
   }
-  
 
-
+  public void deleteStack(){
+    head=null;
+    System.out.println("Stack successfully deleted.");
+  }
   
 }
